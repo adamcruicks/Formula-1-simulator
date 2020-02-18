@@ -1,0 +1,494 @@
+﻿22:31 13.01.202022:31 13.01.2020____________________________________________________________________________
+Season - 2019
+
+Drivers:
+Gain  0.2 (+2) Performance for P1
+Gain  0.1 (+1) Performance for P2-P5
+Gain  0.1 (+1) performance for getting 120% or more of teammates points
+Gain  0.1 (+1) Performance if finishing position x 2 is 3 or more higher then Cars performance standing
+Loses 0.1 (-1) Performance for P15-P18
+Loses 0.1 (-1) Performance for every 4 seasons driven
+Loses 0.1 (-1) Performance if finishing position x 2 is 2 or more lower then cars performance standing
+Loses 0.1 (-1) Performance for getting 80% or less of teammates points
+
+Car		Balance		B Team
+Ferrari 	120 000 	Alfa Romeo		 
+Mercedes	100 000					 
+McLaren 	 90 000					 
+Red Bull 	 90 000		Toro Rosso
+Renault 	 70 000 	
+Racing Point 	 40 000 	
+Haas     	 35 000 	
+Williams 	 15 000 	
+
+
+D.P= Driver performance (Performance stat of a driver)
+C.P= car performance	(Performance stat of a car)
+T.P= Total peformance	(Driver + Car performance)
+N.G= Number generator	(own T.P + N.G from driver above)
+
+
+Balance blir for øyeblikket ikke brukt.
+
+Kommer nummeret til en fører opp, får den førsteplass og 40 poeng.
+Nytt nummer blir generert. Denne føreren får plass Nr. 2 og 38 poeng OSV.
+
+Når "Kvalifiseringen" er over, kan alle bli simulert igjen. 5 førere blir simulert.
+Første fører får 5, andre 4 helt til femtemann får 1. poeng.
+En fører kan ikke gå opp mer enn 2 plasser om gangen.
+Første gang hver fører har 75 eller flere poeng, mister den 25 og får herfra dobbelt poeng.
+Løpet avsluttes når en fører får 100 eller fler poeng.
+Eksempel: Hamilton har D.P på 10 og C.P på 18. Han har derfor 28 poeng totalt. hvis nummer 1-28 dukker opp får han dermed poeng.
+Bottas har 26 T.P. Hamilton har fra før 1-28. Derfor må Bottas ta fra 29 og opp til 28+26 (54). altså 29-54.
+
+Name:		D.P	Car		C.P	T.P	N.G
+ Hamilton 	10	Mercedes	18	28	28
+ Bottas		8	Mercedes	18	26	54
+ Vettel		7	Ferrari		15	23	77
+ Leclerc	9	Ferrari		15	24	101
+ Verstappen	10	Red Bull	14	24	125
+ Gasly		6	Red Bull	14	20	145
+ Norris		8	McLaren		10	18	163		
+ Sainz		8	McLaren		10	18	181		
+ Perez		7	Racing Point	6	13	194		
+ Stroll		4	Racing Point	6	10	204		
+ Magnussen	6	Haas		6.5	12	216		
+ Grosjean	3	Haas		6.5	 9	225		
+ Ricciardo	8	Renault		7	15	240		
+ Hulkenberg	7	Renault		7	14	254
+ Raikkonen	8	Alfa Romeo	4	12	266
+ Giovinazzi	5	Alfa Romeo	4	 9	275
+ Albon		8	Toro Rosso	4.5	12	287
+ Kvyat		6	Toro Rosso	4.5	10	297
+ Russell	8	Williams	1	 9	306
+ Kubica		4	Williams	1	 5	311
+
+https://public.flourish.studio/visualisation/760199/
+
+2019
+
+Australia
+
+1.  Mag	40  	Mag 40	1	Mag 41		Mag 41		Mag 41 		Sai 43 4	Sai 47		Sai 47 1	Sai 48 2	Sai 50 3 	Sai 53		Sai 53 5	Sai 58		Sai 58 5	Sai 63		Sai 63		Sai 63		Sai 63	4 	Sai 67		Sai 67											
+2.  Ves	38  	Sai 39		Sai 39		Sai 39		Sai 39 4	Lec 42		Lec 42 3	Lec 45		Lec 45		Lec 45 4	Lec 49 2	Lec 51		Lec 51 1	Lec 52 2	Lec 54 2	Bot 59		Bot 59 1	Bot 60		Bot 60		Lec 61 1
+3.  Lec	36  	Ves 38  	Lec 39		Lec 39		Lec 39 3	Mag 41		Mag 41		Mag 41		Ham 45		Ham 45		Bot 46 5	Bot 51		Bot 51		Bot 51 3	Bot 54 5	Lec 56		Lec 56 3	Lec 59		Lec 59 2	Bot 60
+4.  Sai	34  5	Lec 36  3	Ves 38		Ves 38		Ves 38		Ves 38		Rai 41		Rai 41		Mag 41 3	Mag 44		Ham 45		Ham 45		Ham 45 4	Ham 49		Ham 49 1	Ham 50		Ves 53 5	Ves 58		Ves 58		Ves 58
+5.  Rai	32  	Rai 32		Rai 32 5	Rai 37		Rai 37 1	Rai 38 3	Ves 38		Ham 41 5	Bot 41		Bot 41 5	Mag 44		Mag 44		Mag 44		Ves 46		Ves 46 4	Ves 50 3	Ham 50		Ham 50		Ham 50		Mag 52
+6.  Bot	30  1	Bot 31		Ham 32 3	Ham 35		Ham 35		Ham 35 2	Bot 38		Ves 38 2	Rai 41		Rai 41		Rai 41		Rai 41		Ves 44 2	Mag 44		Mag 44		Mag 44 5	Mag 49		Mag 49		Mag 49 3	Ham 50
+7.  Ham	28  	Ham 28  4	Bot 31		Bot 31 2	Bot 33		Bot 33 5	Ham 37 5	Bot 38 4	Ves 40 1	Ves 41		Ves 41		Ves 41 3	Rai 41		Rai 41		Rai 41		Rai 41		Rai 41		Rai 41		Rai 41		Rai 41
+8.  Ric	26  	Ric 26		Ric 26		Ric 26 1	Ric 27		Ric 27		Ric 27 1	Ric 28		Ric 28		Ric 28		Ric 28		Ric 28 1	Ric 29		Kvy 33		Kvy 33		Kvy 33		Kvy 33		Gas 34		Gas 34 5	Gas 39
+9.  Gio	24  	Gio 24		Gio 24		Gio 24		Gio 24		Gio 24 1	Gio 25		Kvy 28		Kvy 28		Kvy 28		Kvy 28		Kvy 28		Kvy 28 5	Ric 29 1	Ric 30		Ric 30		Gas 32 4	Kvy 33		Kvy 33		Kvy 33
+10. Kvy	22  	Kvy 22		Per 24		Per 24		Per 24		Per 24		Per 24		Gio 25		Gio 25		Gio 25		Gio 25		Gio 25		Gio 25		Gio 25		Gas 28		Gas 28 4	Ric 30		Ric 30 3	Ric 33		Ric 33
+11. Per	20  	Str 21  2	Str 23		Str 23		Str 23		Kvy 24		Kvy 24 4	Per 24		Per 24		Per 24		Per 24		Per 24		Per 24		Per 24		Gio 25		Gio 25		Gio 25		Gio 25 2	Hul 29		Hul 29
+12. Str	18  3	Per 20  5	Kvy 22		Kvy 22		Hul 23		Str 23		str 23		Str 23		Str 23		Gas 24		Hul 24		Str 24		Gas 24		Gas 24 4	Per 24		Per 24		Per 24		Per 24		Gio 27		Gio 27
+13. Gas	16   	Hul 18		Hul 18		Hul 18 5	Kvy 22 5	Hul 23		Hul 23		Hul 23		Hul 23		Str 23		Gas 24		Hul 24		Hul 24		Hul 24		Hul 24		Hul 24		Hul 24		Hul 24 5	Str 25		Str 25 5
+14. Hul	14  4	Gas 16		Gas 16 1	Gas 17 4	Gas 21		Gas 21		Gas 21		Gas 21		Gas 21 5	Hul 23 2	Str 23 3	Gas 24 2	Str 24		Str 24		str 24		Str 24		Str 24		Str 24 1	Per 24		Per 24 2
+15. Vet	12  2	Vet 14		Vet 14		Vet 14		Vet 14 2	Vet 16		Vet 16		Vet 16		Vet 16		Vet 16		Vet 16 1	Vet 17		alb 19		Vet 20		Vet 20		Vet 20		Alb 21		Alb 21		Alb 21 1	alb 22
+16. Alb	10  	Alb 10		Alb 10 2	Alb 12		Alb 12		Alb 12		Alb 12		Gro 13		Alb 15		Alb 15		Alb 15		Alb 15 4	Vet 17 3	Alb 19		Alb 19		Alb 19 2	Vet 21 		Vet 21		Vet 21		Vet 21 4
+17. Gro	8   	Gro 8		Gro 8  4	Gro 12		Gro 12		Gro 12		Gro 12 2	Alb 12 3	Gro 13		Gro 13		Nor 14		Nor 14		Nor 14		Nor 14		Nor 14		Gro 16		Gro 16		Nor 17		Nor 17		Nor 17
+18. Nor	6   	Nor 6		Nor 6		Nor 6  3	Nor 9		Nor 9		Nor 9		Nor 9		Nor 9  4	Nor 13 1	Gro 13		Gro 13		Gro 13		Gro 13		Gro 13 3	Nor 14 1	Nor 15 2	Gro 16		Gro 16		Gro 16
+19. Rus	4   	Rus 4		Rus 4		Rus 4		Rus 4		Rus 4		Rus 4		Rus 4		Rus 4		Rus 4		Rus 4		Kub 6		Kub 6		Kub 6		Kub 6		Kub 6		Kub 6		Kub 6		Kub 6		Rus 8
+20. Kub	2    	Kub 2		Kub 2		Kub 2		Kub 2		Kub 2		Kub 2		Kub 2		Kub 2		Kub 2		Kub 2  4	Rus 4		Rus 4		Rus 4		Rus 4		Rus 4		Rus 4		Rus 4		Rus 4 4		Kub 6  3
+
+1.  Sai 67	Sai 67 1	Lec 70 5	Sai 68  1	Sai 69		Bot 71  2	Bot 73		Bot 73		Bot 73		Bot 73		Bot 73		Bot 73		Bot 73		Bot 73		Bot 73  2	Lec 66* 1	Lec 68* 	Lec 68*		Lec 68*		Lec 68*
+2.  Lec 62 5	Lec 67 3	sai 68		Ves 62		Bot 66  5	Sai 69		Sai 69		Sai 69  1	Ves 71		Ves 71		Ves 71		Ves 71  4	Ham 63  3	Lec 66*		Lec 66*		Ham 64		Ves 68*		Ves 68*		Ves 68*		Ves 68*
+3.  Bot 60	Ves 62		Ves 62		Bot 61  5	Ves 62		Ves 62  5	Ves 67		Ves 67  4	Sai 70		Sai 70  1	Sai 71  5	Mag 59		Lec 62* 2	Ham 63  1	Ham 64		Mag 64		Ham 64		Mag 67		Mag 67		Mag 67
+4.  Ves 58 4	Bot 60		Bot 60 1	Mag 52		Mag 52  2	Lec 58*		Lec 58*		Lec 58*		Lec 58*		Lec 58*		Mag 59		Lec 58* 2	Mag 59		Mag 59		Mag 59  5	Ves 64* 2	Mag 64  3	Ham 64		Ham 64  2	Ham 66
+5.  Mag 52	Mag 52		Mag 52		Lec 50*		Lec 50* 4	Mag 54		Mag 54		Ham 55		Ham 55  3	Ham 58		Lec 58*		Ham 58  5	Sai 51* 1	Gas 54		Ves 58* 3	Gas 54  3	Gas 57		Gas 57		Bot 58*		Gas 60  5
+6.  Ham 50	Ham 50		Ham 50		Ham 50		Ham 50  3	Ham 53		Ham 53  2	Mag 54		Mag 54  2	Mag 56  3	Ham 58		Sai 51*		Ves 50*		Sai 53*		Gas 54		Sai 53*		Sai 53*		Sai 53*		Gas 57  3	Bot 58*
+7.  Rai 41	Rai 41		Gas 42		Gas 42  4	Gas 46		Gas 46		Gas 46  1	Gas 47		Gas 47		Gas 47  2	Gas 49		Gas 49		Gas 49  5	Ves 50* 4	Sai 53*		Bot 50*		Bot 50* 1	Bot 52* 3	Sai 53*		Sai 53*
+8.  Gas 39 1	Gas 40 2	Rai 41		Rai 41		Rai 41		Rai 41		Rai 41  3	Rai 44		Rai 44		Rai 44		Rai 44  2	Rai 46		Rai 46		Rai 46		Rai 46		Rai 46		Rai 46		Vet 48  4	Vet 52		Vet 52
+9.  Kvy 33	Ric 36		Ric 36 4	Ric 40		Ric 40		Ric 40		Ric 40		Ric 40		Ric 40		Vet 43		Vet 43		Vet 43		Vet 43		Vet 43		Vet 43		Vet 43		Str 46		Rai 46		Rai 46  4	Rai 50
+10. Ric 33 3	Kvy 33		Kvy 33		Kvy 33		Kvy 33		Kvy 33		Kvy 33		Vet 36  2	Vet 38  5	Ric 40		Ric 40		Ric 40		Ric 40		Ric 40		Str 41		Str 41  5	Vet 43  5	str 46		Str 46		Str 46
+11. Str 30	str 30		str 30		Str 30		Vet 31		Vet 31		Hul 33		Str 34		str 34  4	Str 38		Str 38		str 38		Str 38		Str 38  3	Ric 40  1	Ric 41		Ric 41		Ric 41		Ric 41		Ric 41  4
+12. Hul 29	Hul 29		Hul 29		Hul 29		Str 30		str 30		Vet 31  5	Kvy 33		Kvy 33		Kvy 33		Kvy 33		Hul 34		Hul 34  4	Hul 38		Hul 38		Hul 38		Hul 38		Nor 40		Nor 40		Kvy 41
+13. Gio 27	Gio 27		Vet 29		Vet 29  2	Hul 29		Hul 29  4	Str 30  4	Hul 33		Hul 33		Hul 33		Hul 33  1	Kvy 33		Kvy 33		Kvy 33		Per 34		Per 34		Nor 38  2	Hul 38  1	Hul 39		Nor 40  1
+14. Per 26	Per 26		Alb 29		Alb 29		Alb 29		Alb 29		Alb 29		Alb 29		Alb 29		Alb 29		Per 31		Per 31  1	Per 32		Per 32  2	Nor 34		Nor 34  4	Per 34		Per 34  2	Kvy 38  5	Hul 38
+15. Vet 25	Vet 25 5	Gio 27		Gio 27		Gio 27  1	Gio 28		Gio 28		Gio 28		Gio 28		Gio 28		Alb 29		Alb 29  3	Alb 32		Alb 32		Kvy 33		Kvy 33		Kvy 33		Kvy 33  5	Per 36		Per 36
+16. alb 22 2	Alb 24 4	Per 26		Per 26		Per 26		Per 26  1	Per 27		Per 27		Per 27		Per 27  4	Gio 28		Nor 29		Nor 29		Nor 29  5	Alb 33		Alb 33		Alb 33		Alb 33		Alb 33		Alb 33  2
+17. Nor 17	Nor 17		Nor 17		Nor 17		Gro 19		Gro 19		Nor 20		Nor 20  5	Nor 25		Nor 25		Nor 25  4	Gio 28		Gio 28		Gio 28		Gio 28		Gro 29		Gro 29		Gro 29		Gro 29		Gro 29  3
+18. Gro 16	Gro 16		Gro 16		Gro 16  3	Nor 17		Nor 17  3	Gro 19		Gro 19		Gro 19  1	Gro 20  5	Gro 25		Gro 25		Gro 25		Gro 25		Gro 25  4	Gio 28		Gio 28		Gio 28		Gio 28		Gio 28
+19. Kub 9	Kub 9		Kub 9  2	Kub 11		Kub 11		Kub 11		Kub 11		Kub 11  3	Kub 14		Kub 14		Kub 14		Kub 14		Kub 14		Kub 14		Kub 14		Kub 14		Kub 14  4	Kub 18		Kub 18		Kub 18
+20. Rus 8	Rus 8		Rus 8  3	Rus 11		Rus 11		Rus 11		Rus 11		Rus 11		Rus 11		Rus 11		Rus 11  3	Rus 14		Rus 14		Rus 14		Rus 14		Rus 14		Rus 14		Rus 14		Rus 14  1	Rus 15
+
+1.  Lec 68* 3	Lec 74*		Lec 74*		Ves 76*		Ves 76*		Bot 80*		Bot 80*		Lec 84* 4	Lec 92*		Lec 92* 5	1.  Lec 102
+2.  Ves 68*	Ves 68*		Ves 68* 4	Lec 74*		Lec 74*		Ves 76*		Ves 76*		Bot 80* 3	Bot 86*		Bot 86*		2.  Ves 88
+3.  Mag 67	Mag 67		Mag 67		Bot 74*		Bot 74* 3	Lec 74*		Lec 74* 5	Ves 76*		Ves 76* 5	Ves 86* 1	3.  Bot 86
+4.  Ham 66	Ham 66		Ham 66		Mag 67		Mag 67 		Mag 67		Gas 70  2	Ham 73  2	Gas 73		Gas 73  3	4.  Gas 76
+5.  Gas 65	Gas 65		Bot 66* 5	Ham 66		Ham 66		Ham 66  3	Ham 69  4	Gas 72  1	Mag 67		Mag 67  2	5.  Mag 69
+6.  Bot 58*	Bot 58* 4	Gas 65		Gas 65		Gas 65		Gas 65  5	Mag 67		Mag 67		Sai 59*		sai 59*		6.  Sai 59
+7.  Sai 53* 2	Sai 57*		Sai 57*		Sai 57*		sai 57* 1	sai 59*		sai 59*		sai 59*		Rai 58		Rai 58		7.  Rai 58
+8.  Vet 52	Vet 52		Rai 55		Rai 55		Rai 55		Rai 55  2	Rai 57  1	Rai 58		Nor 53		Vet 56		8.  Nor 57
+9.  Rai 50	Rai 50  5	Vet 52		Vet 52		Vet 52		Vet 52		Vet 52		Nor 53		Vet 52  4	Nor 53  4	9.  Vet 56
+10. Str 46	Ric 50		Ric 50		Ric 50		Ric 50		Ric 50		Ric 50		Vet 52		Ham 50*		Ham 50*		10. Ham 50  
+11. Ric 45  5	Str 46		Nor 48		Nor 48		Nor 48  2	Nor 50		Nor 50  3	Ric 50		Ric 50		Ric 50		11. Ric 50
+12. Kvy 41	Nor 45  3	Str 46		str 46		Str 46		str 46		Hul 50		Hul 50		Alb 50		Alb 50		12. Alb 50
+13. Nor 41  4	Kvy 41		Kvy 41		Kvy 41  3	Kvy 44		Hul 46  4	str 46		str 46		Hul 50		Hul 50		13. Hul 50
+14. Hul 38	Hul 38		Per 39		Hul 40  2	Per 44		Alb 46		Alb 46		Alb 46  5	Str 46  1	Str 47		14. Str 47
+15. Per 36  1	Per 37  2	Hul 38  2	Per 39  5	Hul 42  4	Kvy 44		Kvy 44		Kvy 44		Kvy 44		Kvy 44		15. Kvy 44
+16. Alb 35	Alb 35  1	Alb 36  1	Alb 37  4	Alb 41  5	Per 44		Per 44		Per 44		Per 44		Per 44		16. Per 44
+17. Gro 32	Gro 32		Gro 32		Gro 32  1	Gro 33		Gro 33		Gro 33		Gro 33		Gro 33  3	Gro 36		17. Gro 37
+18. Gio 28	Gio 28		Gio 28  3	Gio 31		Gio 31		Gio 31		Gio 31		Gio 31		Gio 31		Gio 31		18. Gio 31
+19. Kub 18	Kub 18		Kub 18		Kub 18		Kub 18		Kub 18		Kub 18		Kub 18		Kub 18		Kub 18		19. Kub 18
+20. Rus 15	Rus 15		Rus 15		Rus 15		Rus 15		Rus 15  1	Rus 16		Rus 16		Rus 16  2	Rus 18		20. Rus 18
+
+	
+
+	Drivers:		Constructors:	
+	P   Name	Points	P   Name	Points	
+
+	1.  Leclerc	25	1.  Red Bull	28 
+	2.  Verstappen	18	2.  Ferarri	27
+	3.  Bottas	15	3.  Mercedes	16
+	4.  Gasly	12	4.  McLaren	12
+	5.  Magnussen	10	5.  Haas	10
+	6.  Sainz	8	6.  Alfa Romeo	6
+	7.  Raikkonen	6	7.  Renault	-
+	8.  Norris	4	8.  Alfa tauri 	-
+	9.  Vettel	2	9.  Racing P. 	-
+	10. Hamilton	1	10. Williams	-
+	11. Ricciardo	-
+	12. Albon	-
+	13. Hülkenberg	-
+	14. Stroll	-
+	15. Kvyat	-
+	16. Perez	-
+	17. Grosjean	-
+	18. Giovinazzi	-
+	19. Kubica	-
+	20. Russell	-
+
+
+Performance stats
+
+		Old 	P1 	P2-P5 	150%	BTEP	P15-P20	WTEP	75%	Age	New D.P	C.P	T.P	N.G
+	
+Hamilton	10	- 	  -	 - 	 - 	   -	 -1	-1	-3	 9.5	18	28	28
+Bottas		8	- 	  +1	 +1	 -	   -	  - 	 -	-1	 8.1	18	26	54
+
+Vettel		7	- 	  -	 -	 -	   - 	 -1	-1	-3	 6.5	15	22	76		
+Leclerc		9	+2	  - 	 +1	+1	   -	  -	 -	 -	 9.4 	15	24	90 
+
+Verstappen	10 	-	  +1	 -	+1	   -	  -	 -	-1	10.1	14	24	114
+Gasly		6	-	  +1	 -	 -	   -	  -	 -	 -	 6.1	14	20	134
+
+Norris		8	-	  -	 -	 -	   -	  - 	 -	 -	 8.0	10	18	152
+sainz		8	-	  -	 -	 -	   -	  -	 -	-1	 7.9	10	18	170
+
+Perez		7	-	  -	 -	 -	   -1	 -1	 -	-2	 6.6   	 6	13	183
+Stroll		4	-	  -	 -	 -	   - 	 -1	 - 	-	 3.9	 6	10	193
+
+Magnussen	6	-	  +1	 +1 	+1	   -	  -	 -	-1	 6.2	 6	12	205			
+Grosjean	3	-	  -	 -	 -	   -1	 -1	-1	-2	 2.5	 6	 9	214
+
+Ricciardo	8	-	  -	 -	 -	   -	  -	 -	-2	 7.8	 7	15	229
+Hülkenberg	7	-	  -	 -	 -	   -	 -1	 -	-2	 6.7	 7	14	243
+
+Raikkonen	8 	-	  -	 +1	+1	   -	  -	 -	-4	 7.8	 4	12	255
+Giovinazzi	5	-	  -	 -	 -	   -1	  -	-1	 -	 4.8	 4	 9	264
+
+Albon		8	-	  -	 -	+1	   -	  -	 -	 -	 8.1	 4	12	276
+Kvyat		6	-	  -	 -	 -	   -1	  -	 -	 -	 5.9	 4	10	286
+
+Russell		8	-	  -	 -	 -	   -1	  -	 -	 -	 7.9	 1	 8	294
+Kubica		4	-	  -	 -	 -	   -1	  -	 -	-1	 3.8	 1	 5	299
+
+
+Bahrain
+
+1.  Alb 40	Nor 41 4	Nor 45		Nor 45		Nor 45		Ham 48 2	Ham 50 1	Nor 53 3	Nor 56		Ham 59		Ham 59 4	Ham 63		Ham 63		Ham 65 4	Ham 69		Ham 69		Ham 69 5 	Ham 74		Ham 74		Ham 74 4 	Nor 67  4
+2.  Nor 38 3	Alb 40 1	Alb 41		Alb 41		Ham 43 5	Nor 45 4	Nor 49 4	Ham 51 4	Ham 55 4	Nor 56		Nor 56		Nor 56		Nor 56		Nor 56 5	Nor 61		Nor 61		Nor 61		Nor 61		Nor 61 5	Nor 67		Ham 53*
+3.  Ham 36 1	Ham 37		Sai 39		Sai 39 2	Alb 41		Alb 41		Alb 41		Alb 41		Alb 41		Sai 42		Alb 46		Alb 46		Alb 46		Alb 46 3	Alb 49 1	Alb 50		alb 50		Alb 50		Alb 50		Alb 50		Alb 50
+4.  Sai 34	Sai 34 5	Ham 37 1	Ham 38 5	Sai 41		Sai 41		Sai 41		Sai 41		Sai 41 1	Alb 41 5	Sai 42		sai 42		Sai 42		Sai 42 2	Sai 44		Sai 44		Sai 44 2	Sai 46		Sai 46 4	sai 50		sai 50
+5.  Rus 32	Rus 32		Rus 32 5	Rus 37		Rus 37		Rus 37		Rus 37		Rus 37		Rus 37		Rus 37 2	Rus 39		Rus 39		Rus 39		Rus 39		Rus 39 2	Ves 44		Ves 44		Ves 44 2	Ves 46		Ves 46		Ves 46  5
+6.  Lec 30	Lec 30		Lec 30 4	Lec 34		Lec 34		Lec 34		Lec 34		Lec 34		Rai 36		Rai 36		Rai 36		Lec 38		Ves 39		Rai 39		Rai 39		Rus 41		Rus 41		Rus 41		Rai 44		Rai 44		Rai 44
+7.  Rai 28	Rai 28		Rai 28 3	Rai 31		Rai 31		Rai 31		Rai 31		Per 32		Lec 34		Lec 34 1	Ves 36		Rai 36		Lec 38		Ves 39		Ves 39 5	Rai 39		Rai 39 1	Rai 40 4	Vet 42 2	Vet 44		Vet 44
+8.  Kvy 26	Kvy 26		Kvy 26		Kvy 26		Kvy 26		Per 27		Per 27 5	Rai 31 5	Per 32		Per 32		Lec 35 3	Ves 36 3	Rai 36 4	Lec 38		Lec 38		Lec 38		Lec 38		Lec 38		Rus 41		Rus 41		Rus 41
+9.  Per 24	Per 24		Per 24 2	Per 26		Per 26 1	Kvy 26		Ves 27 3	Ves 30 2	Ves 32		Ves 32 4	Per 32		Per 32 1	Kvy 35		Kvy 35		Kvy 35		Kvy 35		Vet 37		Vet 37 5	Lec 38		Lec 38		Lec 38
+10. Ves 22	Ves 22		Ves 22		Ves 22		Ves 22 2	Ves 24 3	Kvy 26		Kvy 26		Kvy 26 5	Kvy 29		Kvy 29 2	Kvy 31 4	Per 33 1	Per 34		Per 34		Per 34		Kvy 35		Kvy 35 1	Kvy 36		Kvy 36		Kvy 36  2
+11. Gio 20	Gio 20		Gio 20		Gio 20		Bot 21		Bot 21		Bot 21		Bot 21		Bot 21		Gas 24		Gas 24 1	Gas 25		Vet 29		Vet 29		Vet 29 3	Vet 32 5	Per 34		Per 34		Per 34		Per 34		Per 34
+12. Str 18	Str 18		Bot 20		Bot 20 1	Gio 20		Gio 20		Ric 21		Ric 21		Ric 21		Bot 21		Vet 24		Ric 25		Gas 25 2	Gas 27 1	Gas 28		Gas 28		Gas 28 4	Gas 32		Gas 32		Gas 32		Gas 32
+13. Ric 16	Gas 18 2	Gas 20		Gas 20		Gas 20		Gas 20		Gio 20		Gio 20		Gas 21 3	Vet 21 3	Bot 21		Vet 24 5	Ric 25		Ric 25		Ric 25		Ric 25 3	Ric 28		Ric 28		Ric 28		Ric 28		Gio 31	
+14. Bot 14 4	Bot 18 3	Str 18		Str 18		Ric 20		Ric 20 5	Gas 20		Gas 20 1	Gio 20		Ric 21		Ric 21 5	Bot 21		Gio 22		Bot 24		Bot 24		Bot 24		Bot 24		Gio 25		Gio 25 3	Gio 28 3	Ric 28
+15. Gas 12 5	Ric 16		Ric 16		Ric 16 4	Str 18		Vet 20		Vet 20		Vet 20		Vet 20 2	Gio 20		Gio 20		Gio 20 2	Bot 21 3	Gio 22		Gio 22		Gio 22		Gio 22 3	Bot 24		Bot 24		Bot 24 2	Bot 26  1
+16. Vet 10 3	Vet 13		Vet 13		Vet 13 3	Vet 16 4	Str 18 1	Str 19		Str 19		str 19		Str 19		str 19		Str 19		Str 19		Str 19		Str 19		str 19		Str 19 		Str 19		Str 19		str 19 5	Str 25
+17. Gro  8 	Gro  8		Gro  8		Gro 8		Gro  8		Gro  8		Gro  8 2	Gro 10		Gro 10		Gro 10		Gro 10		Gro 10		Gro 10		Kub 11		Kub 11		Kub 11 4	Kub 15		Kub 15		Kub 15 1	Kub 16		Kub 16
+18. Kub  6	Kub  6		Kub  6		Kub 6		Kub  6		Hul  7		Hul  7		Hul  7		Hul  7		Hul  7		Hul  7		Hul  7		Hul  7		Gro 10		Gro 10		Gro 10 1	Gro 11		Gro 11		Gro 11		Gro 11		Mag 12
+19. Hul  4 	Hul  4		Hul  4		Hul 4		Hul  4 3	Kub  6		Kub  6		Kub  6		Kub  6		Kub  6		Kub  6		Kub  6		Kub  6 5	Hul  7		Hul  7		Hul  7		Mag  8		Mag  8 3	Mag 11		Mag 11 1	Gro 11  3
+20. Mag  2	Mag  2		Mag  2		Mag 2		Mag  2		Mag  2		Mag  2		Mag  2		Mag  2		Mag  2		Mag  2		Mag  2		Mag  2		Mag  2		Mag  2 4	Mag  6 2	Hul  7		Hul  7		Hul  7		Hul  7		Hul  7
+
+1.  Nor 71  4	Ham 53* 5	Ham 63* 3	Ham 69*		Ham 69* 4	Ham 77*		Ham 77*		Ham 77* 1	Ham 79*		Ham 79*		Ham 79*		Ham 79*		Nor 82* 4	Nor 90*		Nor 90* 4	Nor 98*		Nor 98*		Nor 98*		Nor 98*		Nor 98*		Nor 98*
+2.  Ham 53*	Nor 50*		Alb 52		Alb 52  4	Nor 60*		Nor 60*  1	Nor 62*		Nor 62*		Nor 62*		Ves 63		Sai 66		Nor 72* 5	Ham 79*		Ham 79*		Ham 79*		Ham 79* 1	Ham 81* 3	Ham 87*		Ham 87*		Ham 87*		Ham 87*
+3.  Ves 50	Ves 50		Sai 52		sai 52		Alb 56		Sai 57		Sai 57  5	sai 62		sai 62		Nor 62*		Ves 63		sai 66		Sai 66		Sai 66		Sai 66		Sai 66		Ves 68  5	Ves 73  4	Sai 71		Sai 71		Sai 71
+4.  Alb 50	Alb 50  4	Nor 50*		Nor 50* 5	Ves 53  3	Alb 56		Alb 56		Alb 56		Ves 61  2	Sai 62  4	Nor 62* 5	Ves 63		Ves 63		Ves 63		Ves 63		Ves 63  5	Sai 66		Sai 66  5	Alb 63		Alb 63  1	Alb 64
+5.  sai 50	Sai 50  2	Ves 50		Ves 50  3	sai 52  5	Ves 56		Ves 56		Ves 56  5	Alb 56		Alb 56		Alb 56		Alb 56		Alb 56  3	Alb 59  1	Alb 60  3	Alb 63		Alb 63		Alb 63		Vet 60		Vet 60  4	Vet 64
+6.  Rai 44	Rai 44		Rai 44  5	Rai 49		Rai 49		Rai 49		Vet 50		Vet 50		Vet 50		Vet 50		Vet 50  1	Vet 51		Vet 51  2	Lec 56		Lec 56		Lec 56		Lec 56		Vet 58  2	Lec 56		Lec 56		Rai 59
+7.  Vet 44	Vet 44		Vet 44  4	Vet 48		Vet 48		Vet 48  2	Rai 49		Rai 49		Rai 49  1	Rai 50		Rai 50		Rai 50		Lec 51  5	Vet 53		Vet 53  1	Vet 54		Vet 54  4	Lec 56		Rai 53  3	Rai 56  3	Lec 56
+8.  Rus 41  3	Rus 44		Rus 44		Rus 44		Rus 44		Rus 44		Rus 44		Rus 44		Rus 44		Rus 44		Lec 49		Lec 49  2	Rai 50		Rai 50		Rai 50		Rai 50		Rai 50		Rai 50  3	Ves 52*		Ves 52*		Ves 52*
+9.  Lec 38	Lec 38		Lec 38		Lec 38  1	Lec 39  2	Lec 41  3	Lec 44		Lec 44		Lec 44		Lec 44  5	Rus 44		Gas 46		Gas 46		Gas 46		Rus 48		Kvy 50		Kvy 50		Kvy 50		Kvy 50		Kvy 50		Kvy 50  2
+10. Kvy 38	Kvy 38		Kvy 38		Kvy 38		Kvy 38		Kvy 38		Per 40  4	Per 44		Per 44		Per 44		Per 44		Rus 44		Per 45		Per 45		Gas 46		Rus 48		Gas 50		Gas 50		Gas 50		Gas 50		Bot 50
+11. Per 34  2	Per 36		Per 36		Per 36		Per 36		Per 36  4	Kvy 38		Kvy 38		Kvy 38		Gas 41  2	Gas 43  3	Per 44  1	Rus 44		Rus 44  4	Kvy 46  5	Gas 46  4	Rus 48		Rus 48		Rus 48  2	Rus 50		Gas 50
+12. Gas 32  1	Gas 33		Gas 33		Gas 33		Gas 33		Gas 33  5	Gas 38		Gas 38		Gas 38  3	Kvy 38		Kvy 38  2	Kvy 40  3	Kvy 43		Kvy 43  3	Per 45		Per 45		Per 45  1	Per 46		Per 46		Bot 48  5	Rus 50
+13. Gio 31	Gio 31		Gio 31		Gio 31		Gio 31		Gio 31		Gio 31		Gio 31  4	Gio 35		Ric 36		Ric 36		Ric 36		Bot 39		Bot 39		Bot 39  2	Bot 41  3	Bot 44		Bot 44		Bot 44  4	Per 46		Per 46  5
+14. Ric 28	Ric 28  3	Ric 31		Ric 31		Ric 31		Ric 31		Ric 31		Ric 31		Ric 31  5	Gio 35		Gio 35		Gio 35		Ric 36		Ric 36		Ric 36		Ric 36  2	Ric 38		Ric 38		Ric 38		Ric 38		Ric 38  3
+15. Bot 27	Bot 27		Bot 27  2	Bot 29		Bot 29  1	Bot 30		Bot 30		Bot 30		Bot 30  4	Bot 34		Bot 35		Bot 35  4	Gio 35		Gio 35		Gio 35		Gio 35		Gio 36		Gio 36		Gio 36		Gio 36		Gio 36
+16. str 25	Str 25		str 25		str 25		Str 25		Str 25		str 25  1	str 26		Str 26		str 26		Str 26		str 26		Str 26		str 26  2	Str 28		Str 28		Str 28  2	Str 30  1	Str 31  5	Str 36		str 36
+17. Kub 16	Kub 16		Kub 16		Kub 16		Kub 16		Kub 16		Kub 16		Kub 16		Mag 18		Mag 18		Mag 18		Hul 22		Hul 22		Hul 22		Mag 23		Mag 23		Mag 23		Mag 23		Mag 23		mag 23		Hul 24  1
+18. Gro 14	Gro 14		Gro 14  1	Gro 14		Mag 15		Mag 15		Mag 15		Gro 16		Hul 17		Hul 17  1	Gro 18		Mag 18		Mag 18		Gro 19		Hul 22		Hul 22		Hul 22		Hul 22		Hul 22		Hul 22  2	Mag 23
+19. Mag 12	Mag 12  1	Mag 13		Mag 13  2	Gro 14		Gro 14		Gro 14  2	Mag 15  3	Kub 16		Kub 16		Hul 18  4	Gro 18		Gro 18  1	Mag 18  5	Gro 19		Gro 19		Gro 19		Gro 19		Gro 19  1	Gro 20		Gro 20  4
+20. Hul  7  5	Hul 12		Hul 12		Hul 12		Hul 12		Hul 12		Hul 12  3	Hul 15  2	Gro 16		Gro 16  3	Kub 16		Kub 16		Kub 16		Kub 16		Kub 16		Kub 16		Kub 16		Kub 16		Kub 16		Kub 16		Kub 16
+
+1.  Nor 98*	Nor 98*		Nor 98*		Nor 98* 3	1.  Nor 104	
+2.  Ham 87*	Ham 87*		Ham 87*		Ham 87* 5	2.  Ham  97
+3.  Sai 71	Sai 71		Sai 71  2	Sai 73		3.  Sai  73
+4.  Alb 64	Alb 64		Alb 64  4	Alb 68		4.  Ves  72
+5.  Vet 64	Vet 64		Vet 64		Vet 64		5.  Alb  68
+6.  Rai 59  3	Rai 62		Ves 64*		Ves 64* 4	6.  Vet  64
+7.  Lec 56	Ves 62* 1	Rai 62		Rai 62  2	7.  Rai  64
+8.  Ves 52* 5	Lec 56		Bot 57  5	Bot 62		8.  Bot  62
+9.  Kvy 52	Kvy 52		Lec 56		Lec 56		9.  Lec  56
+10. Bot 50  2	Bot 52  5	Kvy 52		Gas 55		10. Gas  55
+11. Per 50	Per 50		Gas 52  3	Kvy 52		11. Kvy  52
+12. Gas 50	Gas 50  2	Per 50		Per 50		12. Per  50
+13. Rus 50	Rus 50		Rus 50		Rus 50		13. Rus  50
+14. Ric 41  1	Ric 42		Str 43		Str 43		14. Ric  44
+15. Gio 36	Str 40  3	Ric 42  1	Ric 43  1	15. Str  43
+16. Str 36  4	Gio 36		Gio 36		Gio 36		16. Gio  36
+17. Hul 25	Hul 25  4	Hul 29		Hul 29		17. Hul  29
+18. Gro 24	Gro 24		Gro 24		Gro 24		18. Gro  24
+19. Mag 23	Mag 23		Mag 23		Mag 23		19. Mag  23
+20. Kub 16	Kub 16		Kub 16		Kub 16		20. Kub  16
+
+
+	Drivers:		Constructors
+	P   Name	Poi	P   Name	Poi
+	1.  Verstappen	30	1.  Mclaren	52
+	2.  Norris	29	2.  Red Bull	43
+	3.  Leclerc	27	3.  Mercedes	38
+	4.  Sainz	23	4.  Ferrari	37
+	5.  Hamilton	19	5.  Alfa Romeo	12
+	6.  Bottas 	19	6.  Haas	10
+	7.  Gasly 	13	7.  Alpha Tauri	10
+	8.  Raikkonen	12	8.  Renault	 -
+	9.  Vettel	10	9.  Racing Point -
+	10. Magnussen	10	10. Williams	 -
+	11. Albon	10
+	12. Hülkenberg	 -
+	13. Ricciardo	 -
+	14. Perez	 -
+	15. stroll	 -
+	16. Grosjean	 -
+	17. Kvyat	 -
+	18. Giovinazzi	 -
+	19. Russell	 -
+	20. kubica	 - 
+
+Performance stats:
+
+
+		Old	P1	P2-P5	150%	BTEP	P15-P20	WTEP	75%	Age	New D.P	C.P	T.P	N.G
+
+Hamilton	 9.5	-	 +1	 +1	 -	  -	 -	 -	-3	 9.4	18	27	 27
+Bottas		 8.1	-	 -	 -	 - 	  -	 -1	 -1	-1	 7.8	18	26	 53
+	
+Vettel		 6.5	-	 -	 -	 -	  -	 -	 -	-3	 6.2	15	21	 74
+Leclerc		 9.4	-	 -	 -	 -	  -	 -1	 -	-	 9.3	15	24	 98
+
+Verstappen	10.1	-	 +1	 -	 -	  -	 -	 -	-1	10.1	14	24	122
+Gasly		 6.1	-	 -	 -	 -	  -	 -	 -	-	 6.1	14	20	142
+	
+Norris		 8.0	+2	 -	 -	 +1	  -	 -	 -	-	 8.3	10	18	160
+Sainz		 7.9	-	 +1	 -	 +1	  -	 -	 -1	-1	 7.9	10	18	178
+
+Hülkenberg	 6.7	-	 -	 -	 -	  -1	 -1	 -1	-2	 6.2	 7	13	191
+Ricciardo	 7.8	-	 -	 +1	 -	  -	 -1	 -	-2	 7.6	 7	15	206
+	
+Perez		 6.6	-	 -	 -	 -	  -	 - 	 -	-2	 6.4	 6	12	218
+Stroll		 3.9	-	 -	 -	 -	  -	 -1	 -	-	 3.8	 6 	10	228
+	
+Magnussen	 6.2	-	 -	 -	 -	  -1	 -1	 -	-1	 5.9	 6	12	240
+Grosjean	 2.5	-	 -	 -	 -	  -1	 -1	 -	-2	 2.1	 6	 8	248
+
+Albon		 8.1	-	 +1	 -	 +1	  -	 -	 -	-	 8.3	 4	12	260
+Kvyat		 5.9	-	 -	 -	 +1	  -	 -	 -	-	 6.0 	 4	10	270
+
+Raikkonen	 7.8	-	 -	 +1	 +1	  -	 -	 -	-4	 7.6	 4	12	282
+Giovinazzi	 4.8	-	 -	 -	 -	  -1	 -	 -1	-	 4.6	 4	 9	291
+
+Russell		 7.9	-	 -	 +1	 +1	  -	 -	 -	-	 8.1	 1	 9	300
+Kubica		 3.8	-	 -	 -	 -	  -1	 -	 -	-1	 3.6	 1	 5	305
+
+
+China
+	
+1.  VET 40 3	VET 43		VET 43		VET 43 3	VET 46 4	VET 50		VET 50		VET 50		VET 50		VET 50		VET 50 4	VET 54 1	VET 55 4	VET 59		VET 59		VET 59		VET 59		VET 59 3	VET 62		VET 62		VET 62
+2.  KVY 38	KVY 38 3	KVY 41		KVY 41 1	KVY 42		KVY 42 2	KVY 44		KVY 44		KVY 44 4	KVY 48		KVY 48		KVY 48		KVY 48 1	KVY 49		KVY 49		KVY 49		KVY 49 2	KVY 51		KVY 51		KVY 51		KVY 51
+3.  LEC 36	LEC 36 2	LEC 38		LEC 38		LEC 38 1	LEC 39 3	LEC 42		LEC 42 1	LEC 43		LEC 43		LEC 43		LEC 43		LEC 43 2	LEC 45		LEC 45		LEC 45		LEC 45		LEC 45		RIC 48 2	RIC 50		RIC 50
+4.  STR 34	SAI 36		SAI 36		SAI 36		SAI 36		SAI 36		STR 38		STR 38		STR 38		SAI 40 2	STR 43		STR 43		STR 43		STR 43		STR 43		STR 43		STR 43		STR 43		LEC 45		LEC 45 1	LEC 46
+5.  SAI 32 4	STR 34		STR 34		STR 34		STR 34		STR 34 4	SAI 36 2	SAI 38		SAI 38 2	STR 38 5	SAI 42		SAI 42		SAI 42		SAI 42		SAI 42		SAI 42		RIC 43		RIC 43 5	STR 43		STR 43		STR 43 2
+6.  RIC 30	RIC 30 1	RIC 31		RIC 31		RIC 31		RIC 31		RIC 31		RIC 31 2	RUS 34		RUS 34		RUS 34 2	RUS 36		RUS 36		RUS 36		RIC 41		RIC 41 2	SAI 42		SAI 42		SAI 42		SAI 42		SAI 42
+7.  GRO 28	GRO 28		GRO 28		GRO 28		MAG 29		MAG 29		RUS 31		RUS 31 3	RIC 33 1	RIC 34		RIC 34		RIC 34 2	RIC 36		RIC 36 5	RUS 36		RUS 36		RUS 36		RUS 36		RUS 36		VES 40		VES 40 5
+8.  MAG 26	MAG 26		MAG 26 1	MAG 27 2	GRO 28		GRO 28		MAG 29		MAG 29		MAG 29		HUL 32		HUL 32		HUL 32		HUL 32		MAG 35		MAG 35		MAG 35		MAG 35		GRO 36		GRO 36		RUS 36		ALB 40
+9.  RUS 24	RUS 24		RUS 24		RUS 24 4	RUS 28		RUS 28 5	GRO 28		HUL 29		HUL 29 3	MAG 29 3	MAG 32		MAG 32		MAG 32 3	HUL 32		HAM 34		ALB 35		HUL 35		MAG 35		VES 36 4	ALB 36 4	RUS 36
+10. HAM 22 1	HAM 23		HAM 23		HUL 24		HUL 24		HUL 24		HUL 24 5	GRO 28		GRO 28		GRO 28		GRO 28		ALB 32		ALB 32		HAM 32 2	HUL 32		HAM 34		GRO 35 1	HAM 35		MAG 35		HAM 36		MAG 36
+11. HUL 20 2	HUL 22		ALB 23		HAM 23		HAM 23		HAM 23		HAM 23		VES 27		VES 27		VES 27		NOR 28		VES 30		VES 30		ALB 32		ALB 32 4	HUL 32 5	ALB 35		VES 35 1	ALB 35 5	GRO 36		HAM 36
+12. ALB 18	ALB 18 5	HUL 22 3	ALB 23		VES 23		NOR 23		NOR 23		ALB 24		NOR 27		HAM 27		ALB 28 5	GRO 28		HAM 30 5	VES 30 1	NOR 32		GRO 32 4	HAM 34 5	HUL 35		HAM 35 3	MAG 35 5	GRO 36
+13. NOR 16 	NOR 16		VES 19		NOR 20		ALB 23		VES 23		VES 23 4	HAM 23		ALB 24		NOR 27 1	VES 27 3	NOR 28		GRO 28		GRO 28		VES 31		NOR 32		VES 34 4	ALB 35 4	HUL 35		HUL 35		HUL 35
+14. BOT 14	VES 15 4	NOR 16 4	VES 19 5	NOR 20 5	ALB 23		ALB 23 1	NOR 23 5	HAM 23 5	ALB 24 4	HAM 27		HAM 27 4	NOR 28		NOR 28 4	GRO 28 5	VES 31 3	NOR 32		NOR 32		NOR 32		NOR 32		NOR 32 3
+15. RAI 12	BOT 14		BOT 14 5	BOT 19		BOT 19 3	BOT 22		BOT 22		BOT 22		BOT 22		BOT 22		BOT 22		BOT 22		BOT 22		BOT 22 3	BOT 25 3	BOT 28		BOT 28		BOT 28		BOT 28		BOT 28 3	BOT 31
+16. VES 10 5	RAI 12		RAI 12		RAI 12		RAI 12		RAI 12		RAI 12		PER 13 4	PER 17		PER 17		PER 17		PER 17 5	PER 22		PER 22		PER 22 2	PER 24		PER 24		PER 24		PER 24		PER 24		PER 24 1
+17. PER  8	PER  8		PER  8		PER  8		PER  8 2	PER 10		PER 10 3	RAI 12		RAI 12		RAI 12		RAI 12		RAI 12		RAI 12		RAI 12		RAI 12		RAI 12 1	RAI 13		GAS 15		GAS 15		GAS 15		RAI 16 4
+18. GAS  6	GAS  6		GAS  6 2	GAS  8		GAS  8		GAS  8		GAS  8		GAS  8		GAS  8		GAS  8		GAS  8 1	GAS  9 3	GAS 12		GAS 12		GAS 12		GAS 12		GAS 12 3	RAI 13		RAI 13 1	RAI 14 2	GAS 15
+19. GIO  4	GIO  4		GIO  4		GIO  4		GIO  4		GIO  4 1	GIO  5		GIO  5		GIO  5		GIO  5		GIO  5		GIO  5		GIO  5		GIO  5		GIO  5		GIO  5		GIO  5		GIO  5 2	GIO  7		GIO  7		GIO  7
+20. KUB  2	KUB  2		KUB  2 		KUB  2		KUB  2		KUB  2		KUB  2		KUB  2		KUB  2		KUB  2		KUB  2		KUB  2		KUB  2		KUB  2		KUB  2 1	KUB  3		KUB  3		KUB  3		KUB  3		KUB  3		KUB  3
+
+1.  VET 62	VET 62		VET 62		VET 62		RIC 63		RIC 63		RIC 63		VET 67		VET 67		VET 67		VET 67 5	VET 72		VET 72		VET 72		VET 72 3	RIC 63		LEC 68		LEC 68  4	LEC 72  1	LEC 73		LEC 73
+2.  KVY 51	KVY 51		RIC 54 5	RIC 59 4	VET 62		VET 62 1	VET 63 4	RIC 63		RIC 63		RIC 63		RIC 63		RIC 63		RIC 63		RIC 63		RIC 63		LEC 63  5	RIC 63		VES 66  2	VES 68		VES 68		VES 68
+3.  RIC 50	RIC 50 4	KVY 51		KVY 51 3	KVY 54		KVY 54		KVY 54		KVY 54 3	KVY 57		KVY 57		KVY 57		KVY 57		KVY 57		VES 58		VES 58		STR 59		VES 61  5	RIC 63		RIC 63  5	RIC 68		RIC 68
+4.  LEC 46	LEC 46		SAI 49		SAI 49		SAI 49		VES 50 2	LEC 53		LEC 53		LEC 53 4	LEC 57		LEC 57		LEC 57		LEC 57		KVY 57		KVY 57		VES 58  3	STR 59  1	STR 60		KVY 63		KVY 63		KVY 63
+5.  STR 45	SAI 46 3	VES 47		LEC 49		LEC 49		SAI 49		VES 52 1	VES 53		SAI 53		STR 55		STR 55		STR 55		VES 56 2	LEC 57		LEC 57 5	KVY 57		KVY 57  3	KVY 60  3	STR 60		STR 60  2	STR 62
+6.  VES 45	STR 45		LEC 46 3	VES 47		VES 47 3	LEC 49 4	SAI 49		STR 50		VES 53		SAI 53		VES 54		VES 54 2	STR 55		STR 55		STR 55 4	HAM 55		HAM 55		HAM 55  1	HAM 56		VET 60*		VET 60*
+7.  SAI 42 5	VES 45 2	STR 45		STR 45		STR 45		STR 45		STR 45 5	SAI 49 5	STR 50 5	VES 53 1	SAI 53		SAI 53		SAI 53		SAI 52		HAM 55		SAI 52		SAI 52		SAI 52		SAI 52		HAM 56  3	HAM 59
+8.  ALB 40	ALB 40 1	ALB 41		ALB 41		ALB 41		HUL 44		HUL 44		HUL 44		HUL 44		HUL 44		HAM 49		HAM 49 3	HAM 52		HAM 52 3	SAI 52		MAG 52		MAG 52		VET 52*		VET 52* 4	MAG 55  1	MAG 56
+9.  RUS 36	RUS 36		RUS 36		MAG 37		HAM 39		ALB 41		ALB 41		ALB 41		ALB 41		HAM 44 5	HUL 44		HUL 44		MAG 48		MAG 48 4	MAG 52		VET 50*		HUL 52		MAG 52		MAG 52  3	SAI 52		SAI 52  4
+10. MAG 36	MAG 36		MAG 36 1	HAM 37 2	HUL 39 5	RUS 40		RUS 40		HAM 41		HAM 41 3	ALB 41		GRO 44		MAG 44 4	HUL 44		GRO 48 2	GRO 50		GRO 50		VET 50* 4	HUL 52		HUL 52		HUL 52		HUL 52
+11. HAM 36	HUL 36		HUL 36		RUS 36		MAG 37		HAM 39		GRO 40		RUS 40		BOT 41		BOT 41		ALB 41		GRO 44		GRO 44 4	BOT 46		HUL 49		HUL 49  4	GRO 50		GRO 50		GRO 50		GRO 50		BOT 51  1
+12. GRO 36	HAM 36		HAM 36 2	HUL 36 5	RUS 36 4	MAG 37		HAM 39 3	GRO 40		RUS 40		GRO 41 4	MAG 41 4	BOT 43		BOT 43 3	HUL 44 5	BOT 46 1	BOT 47		RUS 48		RUS 48		RUS 48		RUS 48		GRO 50
+13. HUL 35 2	GRO 36		GRO 36		GRO 36		GRO 36		GRO 36 5	BOT 39		BOT 39 2	GRO 40 1	RUS 40		BOT 41 2	NOR 42		NOR 42		RUS 45 1	RUS 46		RUS 46  2	BOT 47		BOT 47		BOT 47		BOT 47  5	RUS 48
+14. NOR 35	NOR 35		NOR 35		NOR 35		NOR 35		BOT 36 3	MAG 37 2	MAG 39		MAG 39		MAG 39 3	NOR 41 1	ALB 41		ALB 41 1	NOR 42		NOR 42		ALB 44		ALB 44		ALB 44		ALB 44		ALB 44		ALB 44
+15. BOT 31 4	BOT 35		BOT 35		BOT 35		BOT 35 1	NOR 35		NOR 35		NOR 35 4	NOR 39		NOR 39 2	RUS 40		RUS 40		RUS 40 5	ALB 42		ALB 42 2	NOR 42  1	NOR 43		NOR 43		NOR 43		NOR 43		NOR 43  5
+16. PER 25	PER 25 5	PER 30		PER 30 1	PER 31 2	PER 33		PER 33		PER 33		PER 33		PER 33		PER 33		PER 33 1	PER 34		PER 34		PER 34		PER 34		PER 34  2	PER 36		PER 36		PER 36  4	PER 40  3
+17. RAI 20	RAI 20		RAI 20		GAS 22		GAS 22		GAS 22		GAS 22		GAS 22		GAS 22		RAI 23		RAI 23 3	RAI 26		GAS 27		GAS 27		GAS 27		GAS 27		GAS 27		GAS 27		GAS 27		GAS 27		GAS 27
+18. GAS 15 3	GAS 18		GAS 18 4	RAI 20		RAI 20		RAI 20		RAI 20		RAI 20 1	RAI 21 2	GAS 22		GAS 22		GAS 22 5	RAI 26		RAI 26		RAI 26		RAI 26		RAI 26		RAI 26		RAI 26		RAI 26		RAI 26  2
+19. GIO  7 1	GIO  8		GIO  8		GIO  8		GIO  8		GIO  8		GIO  8		GIO  8		GIO  8		GIO  8		GIO  8		GIO  8		GIO  8		GIO  8		GIO  8		GIO  8		GIO  8		GIO  8  5	GIO 13		GIO 13		GIO 13
+20. KUB  3	KUB  3		KUB  3		KUB  3		KUB  3		KUB  3		KUB  3		KUB  3		KUB  3		KUB  3		KUB  3		KUB  3		KUB  3		KUB  3		KUB  3		KUB  3		KUB  3		KUB  3		KUB  3		KUB  3		KUB  3
+
+1.  LEC 73  5	VES 68  2	VES 70		VES 70		RIC 71  5	VES 72		VES 72		VES 72  4	KVY 70  1	KVY 71		KVY 71		KVY 72		BOT 74		VET 76* 4	VET 84* 1	VET 86*		VET 86*		LEC 96*		LEC 96*		LEC 96*		LEC 96* 3	1.  LEC 102
+2.  VES 68	RIC 68  1	RIC 69  1	RIC 70  1	VES 70  2	SAI 67		KVY 70		KVY 70		VET 70*		VET 70*		VET 70*		VET 70* 1	KVY 72		BOT 74  5	LEC 76* 3	LEC 82* 2	LEC 86* 5	VET 86*		VET 86* 4	VET 94*		VET 94*		2.  VET 84
+3.  RIC 68	KVY 63		KVY 63  2	SAI 67		SAI 67		KVY 65  5	SAI 67		VET 70*		SAI 69		SAI 69		BOT 70		BOT 70  4	VET 72* 2	KVY 72		KVY 72		KVY 72		KVY 72  3	HAM 68  5	HAM 73  5	NOR 68*		NOR 68*		3.  HAM 78 (Pit within 3 "laps" before finish)
+4.  KVY 63	STR 62		STR 62		KVY 65		KVY 65		MAG 64		MAG 64  1	SAI 67  2	BOT 67  2	BOT 69  1	SAI 69		LEC 70*		MAG 72  4	SAI 71		SAI 71  4	NOR 66*		HAM 68		NOR 66*		RIC 67		RIC 67		RIC 67		4.  NOR 68
+5.  STR 62	VET 60*		SAI 62  5	MAG 64		MAG 64		VET 64*		VET 64* 3	BOT 67		MAG 64		MAG 64		MAG 64  5	SAI 69  2	SAI 71		LEC 70* 3	NOR 66*		HAM 64  4	NOR 66*		STR 63		NOR 66* 2	STR 63  1	VES 65*		5.  RIC 67
+6.  VET 60*	HAM 60		MAG 61  3	HAM 64		HAM 64		HAM 64		HAM 64		MAG 64		LEC 64*		LEC 64*		LEC 64* 3	MAG 69  5	LEC 70*		NOR 66*		HAM 64		STR 62  1	STR 63		RIC 63  4	STR 63		VES 61* 2	STR 64		6.  VES 65
+7.  HAM 59  1	SAI 60  4	VET 60*		STR 62		BOT 63		BOT 63		BOT 63  4	HAM 64		HAM 64		HAM 64		HAM 64		NOR 66		NOR 66		HAM 64		STR 62		RIC 60  3	RIC 63		GRO 59		GRO 59		GRO 59		GRO 59		7.  STR 64
+8.  MAG 56  2	MAG 58  3	HAM 60  4	VET 60*		STR 62		STR 62		STR 62		STR 62		STR 62		STR 62		STR 62		HAM 64		HAM 64		STR 62		RIC 60		GRO 59		GRO 59		BOT 59		BOT 59		BOT 59		BOT 59		8.  HUL 60
+9.  SAI 56  4	BOT 55  5	BOT 60		BOT 60  3	VET 60* 4	NOR 55		LEC 59*		LEC 59* 3	NOR 57		NOR 57  5	NOR 62  4	STR 62		STR 62		RIC 60		GRO 59		HUL 58		BOT 59		HUL 59		VES 59* 1	HUL 59		HUL 59  1	9.  GRO 59
+10. HUL 52	LEC 53*		LEC 53*		LEC 53*		LEC 53*		LEC 53* 3	GRO 56		NOR 57		GRO 56		GRO 56		RIC 60*		RIC 60*		RIC 60		GRO 59		HUL 58		VES 55*		HUL 58  1	ALB 58  1	HUL 59		ALB 59		ALB 59		10. BOT 59
+11. BOT 52  3	HUL 52		HUL 52		HUL 52		HUL 52		HUL 52		NOR 55  2	GRO 56		RIC 53		RIC 53* 3	GRO 56		GRO 56		GRO 56  3	HUL 58		VES 55*		BOT 54  5	VES 55*		VES 55* 3	ALB 59		PER 54		HAM 59* 5	11. ALB 59
+12. GRO 50	GRO 50		GRO 50		GRO 50		NOR 52  3	GRO 52  4	HUL 52		HUL 52		HUL 52		PER 53 		PER 53		PER 53		PER 53		VES 55*		BOT 54		ALB 54		ALB 54  4	PER 54		PER 54		SAI 54*		MAG 59*		12. MAG 59
+13. RUS 48	RUS 48		RUS 48		RUS 48		GRO 50  2	RIC 51*		RIC 51*		RIC 51* 1	VES 51*		HUL 52		ALB 53		VES 53*		HUL 53  5	PER 53  1	PER 54		PER 54		PER 54		MAG 51*		SAI 54*		HAM 53* 3	PER 54		13. KVY 58
+14. NOR 48	NOR 48		NOR 48		NOR 48  4	RUS 48		RUS 48		RUS 48		PER 50		PER 50  4	VES 51*		HUL 52		ALB 53		VES 53* 1	ALB 53		ALB 53  2	MAG 51*		MAG 51*		SAI 50* 2	MAG 51*		MAG 51* 4	SAI 54*		14. PER 54
+15. ALB 44	ALB 44		ALB 44		ALB 44		ALB 44		ALB 44		PER 45  5	RUS 48		RUS 48		ALB 49  4	VES 51* 2	HUL 52  3	ALB 53		MAG 51*		MAG 51*		SAI 50*		SAI 50*		KVY 50*		KVY 50*		KVY 50*		KVY 50* 4	15. SAI 54
+16. PER 43	PER 43		PER 43		PER 43		PER 43		PER 43  2	ALB 44		ALB 44		ALB 44  5 	RUS 48		RUS 48		RUS 48		RUS 48		RUS 48		RUS 48		RUS 48		RUS 48		RUS 48		RUS 48		RUS 48		GAS 49		16. GAS 49
+17. RAI 28	RAI 28		RAI 28		RAI 28  5	RAI 33		RAI 33		RAI 33		RAI 33		RAI 33		GAS 36		GAS 36  1	GAS 37		GAS 37		GAS 37		GAS 37  5	GAS 42		GAS 42  2	GAS 44		GAS 44		GAS 44  5	RUS 48		17. RUS 48
+18. GAS 27	GAS 27		GAS 27		GAS 27		GAS 27		GAS 27  1	GAS 28		GAS 28  5	GAS 33  3	RAI 33  2	RAI 35		RAI 35		RAI 35		RAI 35  2	RAI 37		RIA 37		RAI 37		RAI 37		RAI 37		RAI 37		RAI 37		18. RAI 37
+19. GIO 13	GIO 13		GIO 13		GIO 13		GIO 13		GIO 13		GIO 13		GIO 13		GIO 13		GIO 13		GIO 13		GIO 13		GIO 13		GIO 13		GIO 13		GIO 13		GIO 13		GIO 13		GIO 13		GIO 13		GIO 13  2	19. GIO 15
+20. KUB  3	KUB  3		KUB  3		KUB  3  2	KUB  5		KUB  5		KUB  5		KUB  5		KUB  5		KUB  5		KUB  5		KUB  5		KUB  5		KUB  5		KUB  5		KUB  5		KUB  5		KUB  5		KUB  5  3	KUB  8		KUB  8		20. KUB  8
+
+
+	Drivers:		Constructors
+	P   Leclerc 	52	1.  Ferrari	80
+	2.  Norris	41	2.  McLaren	74
+	3.  Verstappen	38	3.  Mercedes	54
+	4.  Hamilton 	34	4. Red Bull 	51
+	5.  Vettel	28	5.  Alfa Romeo	12
+	6.  Sainz	23	6.  Renault	14
+	7.  Bottas 	20	7.  Alfa Romeo	12
+	8.  Gasly 	13	8.  Haas	12
+	9.  Raikkonen	12	9.  Racing Point 6
+	10. Magnussen	10	10. Williams	 -
+	11. Albon	10
+	12. Ricciardo	10
+	13. Stroll	 6
+	14. Hülkenberg	 4
+	15. Grosjean	 2
+	16. Perez	 -
+	17. Kvyat	 -
+	18. Giovinazzi	 -
+	19. Russell	 -
+	20. kubica	 - 
+
+Performance stats:
+
+
+		Old	P1	P2-P5	150%	BTEP	P15-P20	WTEP	75%	Age	New D.P	C.P	T.P	N.G
+
+Hamilton	 9.4	-	  +1	 -	 -	   -	 -	 -	 -3	 9.2	18	 27	 27
+Bottas		 7.8	-	  -	 -	 -	   -	 -1	 -	 -1	 7.6	18	 26	 53
+Vettel		 6.2	-	  +1	 -	 -	   -	 -	 -	 -3	 6.0	15	 21	 74
+Leclerc		 9.3	+2	  -	 -	 +1	   -	 -	 -	 -	 9.6	15	 25	 99
+Verstappen	10.1	-	  -	 -	 -	   -	 -	 -	 -1	10.0	14	 24	123
+Gasly		 6.1	-	  +1	 -	 -	   -1	 -1	 -	 -	 6.0	14	 22	145
+Norris		 8.3	-	  -	 -	 +1	   -	 - 	 -	 -	 8.4	10	 18	163
+Sainz		 7.9	-	  -	 -	 -	   -1	 -1	 -	 -1	 7.6	10	 18	181
+Hülkenberg	 6.2	-	  +1	 -	 -	   -	 -	 -	 -2	 6.1	 7	 13	194
+Ricciardo	 7.6	-	  -	 -	 +1	   -	 -	 -	 -2	 7.5	 7	 15	209
+Perez		 6.4	-	  -	 -	 -	   -	 -	 -	 -2	 6.2	 6	 12 	221
+Stroll		 3.8	-	  -	 -	 +1	   -	 -	 -	 -	 3.9	 6	 10	231
+Magnussen	 5.9	-	  -	 -	 -	   -	 -	 -	 -1	 5.8	 6	 12	243
+Grosjean	 2.1	-	  -	 -	 +1	   -	 -	 -	 -2	 2.0	 6	  8 	251
+Albon		 8.3	-	  -	 -	 +1	   -	 -	 -	 -	 8.4	 4	 12	263
+Kvyat		 6.0	-	  -	 -	 +1	   -	 -	 -	 -	 6.1	 4	 10	273
+Raikkonen	 7.6	-	  -	 +1	 -	   -1	 -	 -	 -4	 7.2	 4	 11	284
+Giovinazzi	 4.6	-	  -	 -	 -	   -1	 -	 -1	 -	 4.4	 4	  8	292
+Russell		 8.1	-	  -	 +1	 +1	   -1	 -	 -	 -	 8.2	 1	  9	301
+Kubica		 3.6	-	  -	 -	 -	   -1	 -	 -1	 -1	 3.3	 1	  4	305
+	
+ P  W  Poi  
+ 2  0  34 	Hamilton	Mercedes	A	            7 8 9 10 1 2 3 4 5 6 7 8 9	CCC CC
+ 1  0  20  	Bottas		Mercedes	A	                         3 4 5 6 7 8 9
+
+ 1  0  28	Vettel		Ferrari		A	            7 8 9 10 1 2 3 4 5 6 7 8 9	CCC C
+ 2  2  52	Leclerc		Ferrari		A	                                   8 9
+
+ 1  0  38 	Verstappen	Red Bull	A	                             5 6 7 8 9
+ 0  0  13	Gasly		Red Bull	A	                                   8 9
+
+ 1  1  41	Norris		McLaren		 B	                                     9
+ 1  0  23	Sainz		McLaren		 B	                             5 6 7 8 9
+
+ 0  0   4	Hulkenberg	Renault		 B	                  10 - 2 3 4 5 6 7 8 9
+ 0  0  10	Ricciardo	Renault		 B	                       2 3 4 5 6 7 8 9
+
+ 0  0   0	Perez		Racing Point	 B	                     1 2 3 4 5 6 7 8 9
+ 0  0	6	Stroll		Racing Point	 B	                                 7 8 9
+
+ 0  0  10	Magnussen	Haas		 B	                           4 - 6 7 8 9
+ 0  0   2	Grosjean	Haas		 B	                     1 2 3 4 5 6 7 8 9
+
+ 0  0  10	Albon		Alpha Tauri	 B	                                     9
+ 0  0   0	Kvyat		Alpha Tauri	 B	                           4 5 6 7 - 9
+
+ 0  0  12	Raikkonen	Alfa Romeo	 B	1 2 3 4 5 6 7 8 9 -- - 2 3 4 5 6 7 8 9	C
+ 0  0	0	Giovinazzi	Alfa Romeo	 B	                                     9
+
+ 0  0	0	Russell		Williams	 B	                                     9
+ 0  0	0	Kubica		Williams	 B	          6 7 8 9 10 - - - - - - - - 9
+
+
+ P  W  Poi
+ 2  0  38  	Mercedes	A	[Ham	19]	[Bot	19]
+ 1  1  37	Ferrari		A	[Vet	10]	[Lec	27]
+ 1  0  43  	Red Bull	A	[Ves	30]	[Gas	13]
+ 2  1  52	McLaren		A	[Nor	29]	[Sai	23]
+
+ 0  0   0	Racing Point	 B	[Per	 0]	[Str	 0]
+ 0  0  12	Alfa Romeo	 B	[Rai	12]	[Gio	 0]
+ 0  0   0	Renault		 B	[Hul	 0]	[Ric	 0]
+ 0  0  10	alpha Tauri	 B	[Alb	10]	[Kvy	 0]
+ 0  0  10	Haas		 B	[Mag	10]	[Gro	 0]
+ 0  0	0	Williams	 B	[Rus     0]	[Kub	 0]
+
+
+
+40 30 20 16 12 10 8 6 4 2 | 1500 B 3000 A
+Teams		Old		Results	Win	Pod	 [Sub] 	Cost	Tot		New
+ Mercedes	100 000	A	+4000	+1400	+3100	[+8500]	-3000	[+5 500]	105 500
+ Ferrari	100 000*A	+4000	+600	+1800	[+6500]	-4500	[+2 000]	102 000
+ McLaren	100 000	 B	+1600		+200	[+2400]	-1500	[+  900]	100 900
+ Renault	 80 000	 B	+800			[+ 900]	-1500	[-  600]	 79 400
+ Red Bull	 60 000*A	+2600	+600	+800	[+4100]	-4500	[-  400]	 59 600
+ Racing Point	 40 000	 B	+1200		+100	[+1600]	-1500	[+  100]	 40 100
+ Haas		 30 000	 B	+400			[+ 500]	-1500	[-1 000]	 29 000
+ Williams	  5 000	 B	+200			[+ 200]	-1500	[-1 300]	  3 700
+
+
