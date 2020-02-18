@@ -1,0 +1,2 @@
+# Formula-1-simulator
+This is the repository for one of my projects. The project's goal is to simply simulate rounds of Formula 1 racing, based on data for each participant. The simulation itself follows simple rules, and will be based around a command line interface (CLI), not a graphical user interface (GUI). The initiative for this project was a friend of mine who simulates Formula 1 racing by hand with Microsoft Notepad and Google's random number generator, and who wanted more automation in the process.
